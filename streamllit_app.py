@@ -14,7 +14,7 @@ st.set_page_config(
 
 # 2. 側邊欄：個人資訊
 with st.sidebar:
-    st.header("👤 學生個人資訊")
+    st.header(" 學生個人資訊")
     st.image("https://stickershop.line-scdn.net/stickershop/v1/product/15644811/LINEStorePC/main.png?v=1", width=90)
     st.write(f"**姓名：** {config.MY_NAME}")
     st.write(f"**班級：** {config.MY_CLASS}")
@@ -26,7 +26,7 @@ with st.sidebar:
         st.write(f"- {skill}")
 
 # 3. 主畫面標題
-st.title("📱 手機端即時物件偵測系統")
+st.title("手機端即時物件偵測系統")
 st.write(f"你好！我是 **{config.MY_NAME}**。請拍照或上傳照片，AI 將自動辨識人與手機！")
 st.divider()
 
