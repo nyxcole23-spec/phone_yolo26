@@ -15,7 +15,7 @@ st.set_page_config(
 # 2. 側邊欄：個人資訊
 with st.sidebar:
     st.header("👤 學生個人資訊")
-    st.image("https://cdn-icons-png.flaticon.com/512/3242/3242257.png", width=90)
+    st.image("https://stickershop.line-scdn.net/stickershop/v1/product/15644811/LINEStorePC/main.png?v=1", width=90)
     st.write(f"**姓名：** {config.MY_NAME}")
     st.write(f"**班級：** {config.MY_CLASS}")
     st.write(f"**學號：** {config.MY_ID}")
