@@ -13,6 +13,8 @@ MY_SKILLS = [
     "YOLO2699 物件偵測 完成",
     "Streamlit 網頁應用 佈署",
     "GitHub 雲端倉庫 儲存",
+My Programming Project
+    "
 ]
 
 # 3.  模型"yolo26s.pt"，與類別設定 (0: person, 67: cell phone)
