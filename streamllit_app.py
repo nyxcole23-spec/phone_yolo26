@@ -27,7 +27,9 @@ with st.sidebar:
 
 # 3. 主畫面標題
 st.title("手機端即時物件偵測系統")
-st.write(f"你好！我是 **{config.MY_NAME}**。請拍照或上傳照片，AI 將自動辨識人與手機！")
+st.write(f"你好！我是 **{config.MY_NAME}**。
+這是我的第一個成功的個人專案
+請拍照或上傳照片，AI 將自動辨識人與手機！")
 st.divider()
 
 # 4. 載入模型
